@@ -1,7 +1,7 @@
 import React, { useEffect, useContext, useState } from 'react'
 
 import { View, ImageBackground, Image, Linking, TouchableHighlight } from 'react-native'
-import * as RootNavigation from'./../../../../../Navigations/RootNavigation'
+import * as RootNavigation from'../../../../../Navigations/RootNavigation'
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import axios from 'axios'
@@ -37,7 +37,7 @@ export function ItemProfesor(props) {
         >
             <View style={{ flexDirection: 'row' }}>
                 <View style={{ flex: 1.8, justifyContent: 'center', alignItems: 'center' }}>
-                    <Image source={require('./../../../../../Assets/Perfil1.png')}
+                    <Image source={require('../../../../../Assets/Perfil1.png')}
                         style={{
                             height: 55, width: 55,
                             borderRadius: 50

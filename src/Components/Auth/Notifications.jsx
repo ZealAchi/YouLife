@@ -4,7 +4,7 @@ import { View, ScrollView } from "native-base";
 import { Container, Header, Thumbnail, Content, List, ListItem, Text, Separator, Left, Right, Body, Button } from 'native-base';
 import { NotificationsContext } from "../../Context/Notifications.Context";
 import { TouchableOpacity } from "react-native-gesture-handler";
-import * as RootNavigation from './../../Navigations/RootNavigation';
+import * as RootNavigation from '../../Navigations/RootNavigation';
 // import { useWs } from "../../Hooks/useWS";
 // 
 

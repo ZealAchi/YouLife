@@ -3,7 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { Login } from '../Components/NoAuth/SignIn';
 import { CreateAccount } from '../Components/NoAuth/CreateAccount';
 import { RequestCode } from '../Components/NoAuth/RequestCode';
-import { ScannerCode } from '../Components/NoAuth/ScannerCode.jsx';
+import { ScannerCode } from '../Components/NoAuth/ScannerCode.jsx.jsx';
 import { ForgetPassword } from '../Components/NoAuth/ForgetPassword';
 
 const AuthStack = createStackNavigator()

@@ -79,7 +79,7 @@ export const RequestCode = ({navigation}) => {
 
                                 <View style={{ backgroundColor: 'transparent', marginBottom: -15 }}>
                                     <Image style={{ width: '100%', height: 100, marginTop: 0 }}
-                                        resizeMode="center" source={require('./../../Assets/logo_youtrain.png')} />
+                                        resizeMode="center" source={require('../../Assets/logo_youtrain.png')} />
                                 </View>
                                 <ScrollView>
                                     {qrImage === undefined ? Data.map((item, i) => {

@@ -20,15 +20,15 @@ export const TabsScreen = () => (
                 // console.log(color,'Ag COlor :v')
                 let iconName;
                 if (route.name === 'Home') {
-                    iconName = focused ? require('./../Assets/Home.png') : require('./../Assets/Home.png')
+                    iconName = focused ? require('../Assets/Home.png') : require('../Assets/Home.png')
                 } else if (route.name === 'Comunidad') {
-                    iconName = focused ? require('./../Assets/Comunidad.png') : require('./../Assets/Comunidad.png');
+                    iconName = focused ? require('../Assets/Comunidad.png') : require('../Assets/Comunidad.png');
                 } else if (route.name === 'Avisos') {
-                    iconName = focused ? require('./../Assets/Avisos.png') : require('./../Assets/Avisos.png');
+                    iconName = focused ? require('../Assets/Avisos.png') : require('../Assets/Avisos.png');
                 } else if (route.name === 'Salas') {
-                    iconName = focused ? require('./../Assets/Salas.png') : require('./../Assets/Salas.png');
+                    iconName = focused ? require('../Assets/Salas.png') : require('../Assets/Salas.png');
                 } else if (route.name === 'Pagos') {
-                    iconName = focused ? require('./../Assets/Pagos.png') : require('./../Assets/Pagos.png');
+                    iconName = focused ? require('../Assets/Pagos.png') : require('../Assets/Pagos.png');
                 }
                 // You can return any component that you like here!
                 return <Image source={iconName} style={{

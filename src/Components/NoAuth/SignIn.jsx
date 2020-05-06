@@ -10,9 +10,9 @@ import Feather from 'react-native-vector-icons/Feather';
 
 
 import AsyncStorage from '@react-native-community/async-storage';
-import { Button } from './../../UI/Button'
+import { Button } from '../../UI/Button'
 import { ScreenContainer } from '../ScreenContainer'
-import colors from './../../UI/Colors';
+import colors from '../../UI/Colors';
 // import { Texto } from '../../UI/Text';
 import { useWs } from '../../Hooks/useWS';
 import { LoadingContext } from '../../Context/Load.Context';
@@ -119,7 +119,7 @@ export const Login = ({ navigation }) => {
                 <View style={styles.container}>
                     <View style={styles.halfHeight} >
                         <Image style={{ width: '100%', height: 100 }}
-                            resizeMode="center" source={require('./../../Assets/logo_youtrain.png')} />
+                            resizeMode="center" source={require('../../Assets/logo_youtrain.png')} />
                     </View>
                     <View style={[styles.quarterHeight]} >
                         <View style={{

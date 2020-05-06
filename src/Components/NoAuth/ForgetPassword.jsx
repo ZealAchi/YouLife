@@ -67,7 +67,7 @@ export const ForgetPassword = () => {
                             }}>
                                 <View style={{ backgroundColor: 'transparent', marginBottom: -15 }}>
                                     <Image style={{ width: '100%', height: 100, marginTop: 0 }}
-                                        resizeMode="center" source={require('./../../Assets/logo_youtrain.png')} />
+                                        resizeMode="center" source={require('../../Assets/logo_youtrain.png')} />
                                 </View>
                                 <Input2 label="RUT" onChange={(e) => setState({ ...state, FechaNacimiento: e })} value={state.FechaNacimiento} />
                                 <Input2 label="Email" onChange={(e) => setState({ ...state, Rut: e })} value={state.Rut} />

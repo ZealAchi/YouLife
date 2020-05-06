@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import colors from './../../UI/Colors';
+import colors from '../../UI/Colors';
 import { Texto } from '../../UI/Text';
 import { Button} from '../../UI/Button';
 import { SafeAreaView } from 'react-native';

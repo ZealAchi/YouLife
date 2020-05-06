@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react'
 import { View, ScrollView } from 'react-native'
-import { Button } from './../../../UI/Button'
+import { Button } from '../../../UI/Button'
 import Colors from '../../../UI/Colors'
 import { Texto } from '../../../UI/Text'
 import { ItemPicker } from '../../../UI/ItemPicker'

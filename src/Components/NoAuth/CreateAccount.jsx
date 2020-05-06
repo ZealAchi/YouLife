@@ -43,7 +43,7 @@ export const CreateAccount = ({navigation}) => {
                             }}>
                                 <View style={{ backgroundColor: 'transparent', marginBottom: -15 }}>
                                     <Image style={{ width: '100%', height: 100, marginTop: 0 }}
-                                        resizeMode="center" source={require('./../../Assets/logo_youtrain.png')} />
+                                        resizeMode="center" source={require('../../Assets/logo_youtrain.png')} />
                                 </View>
                                 <ScrollView style={{ paddingTop: 0, }}>
                                     <Input2 label="Nombre y Apellido" onChange={(e) => setState({ ...state, nombre: e })} value={state.nombre} />

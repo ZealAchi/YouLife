@@ -3,7 +3,7 @@ import React, { useState, createContext, useEffect, useContext } from "react";
 import { useWs } from "../Hooks/useWS";
 import { useData } from "../Hooks/useData";
 import { DataContext } from "./Datos.Context";
-import * as RootNavigation from './../Navigations/RootNavigation';
+import * as RootNavigation from '../Navigations/RootNavigation';
 
 // import { AuthContext } from "./Auth.Context";
 

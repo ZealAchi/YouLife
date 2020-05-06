@@ -143,7 +143,7 @@ const optionsUsersNews = [
     {
         title: 'MI GYM',
         navigate: 'HomeGym',
-        ico: require('./../../Assets/Logo.png')
+        ico: require('../../Assets/Logo.png')
     },
     // {
     //     title:'Avisos',
@@ -190,14 +190,14 @@ const ComunidadesInfo = [
     {
         title: 'Comunidad de runners',
         description: 'Les parece juntarnos el sabado a las 10AM a trotar por la comuna?',
-        img: require('./../../Assets/Perfil1.png'),
+        img: require('../../Assets/Perfil1.png'),
         like: 50,
         disLike: 14
     },
     {
         title: 'Comunidad de runners',
         description: 'Les parece juntarnos el sabado a las 10AM a trotar por la comuna?',
-        img: require('./../../Assets/Perfil2.png'),
+        img: require('../../Assets/Perfil2.png'),
         like: 50,
         disLike: 14
     }
@@ -205,19 +205,19 @@ const ComunidadesInfo = [
 
 const MuralDeAvisos = [
     {
-        img: require("./../../Assets/Aviso1.png"),
+        img: require("../../Assets/Aviso1.png"),
         title: 'Paseo perros',
         owner: 'Carlos Anaya ',
         cost: 500
     },
     {
-        img: require("./../../Assets/Aviso2.png"),
+        img: require("../../Assets/Aviso2.png"),
         title: 'Estacionamiento',
         owner: 'María Campos',
         cost: 500
     },
     {
-        img: require("./../../Assets/Aviso3.png"),
+        img: require("../../Assets/Aviso3.png"),
         title: 'Refrigerador',
         owner: 'Toni Ventura',
         cost: 500

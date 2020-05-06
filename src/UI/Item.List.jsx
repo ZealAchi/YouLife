@@ -31,7 +31,7 @@ export default function ItemList(props) {
         >
             <View style={{ flexDirection: 'row',height:'100%', }}>
                 <View style={{ flex: 1.8, justifyContent: 'center', alignItems: 'center' }}>
-                    <Image source={require('./../Assets/Perfil1.png')}
+                    <Image source={require('../Assets/Perfil1.png')}
                         style={{
                             height: 55, width: 55,
                             borderRadius: 50
