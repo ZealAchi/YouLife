@@ -20,7 +20,7 @@
     "@react-navigation/material-bottom-tabs": "5.1.15",
     "@react-navigation/native": "5.2.4",
     "@react-navigation/stack": "5.2.19",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "lodash": "4.17.15",
     "moment": "2.25.3",
     "native-base": "2.13.12",
